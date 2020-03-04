@@ -36,7 +36,7 @@ public class Classroom {
     }
 
     public Student[] removeStudent(String firstName, String lastName){
-        
+
         ArrayList<Student> studentsList = new ArrayList<>(Arrays.asList(students));
 
         Iterator<Student> iterator = studentsList.iterator();
